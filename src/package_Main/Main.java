@@ -13,7 +13,7 @@ public class Main {
 		
 		teste.controleEstoque("TV", 10, 900.00);
 		
-		teste.reportStock();
+		teste.printStock();
 
 	}
 

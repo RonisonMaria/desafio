@@ -24,10 +24,15 @@ public class Controle {
 		setQuantity(aux);
 	}
 	
-	public void reportStock() {
+	public double totalStock() {
+		return getQuantity() * getPrice();
+	}
+	
+	public void printStock() {
 		System.out.println("Nome Produto: " + getName());
 		System.out.println("Preço Unitário: " + getPrice());
 		System.out.println("Quantidade: " + getQuantity());
+		System.out.println("Valor total " + totalStock());
 	}
 
 	public String getName() {
