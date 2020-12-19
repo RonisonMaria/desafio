@@ -14,6 +14,12 @@ public class Main {
 		teste.controleEstoque("TV", 10, 900.00);
 		
 		teste.printStock();
+		
+		teste.removeQuantity(2);
+		
+		System.out.println("==================/n");
+		
+		teste.printStock();
 
 	}
 
