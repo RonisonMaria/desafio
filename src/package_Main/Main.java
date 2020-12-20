@@ -10,9 +10,8 @@ public class Main {
 		int add = 5;
 		int remove = 2;
 		
-		Controle teste;
-		
-		teste = new Controle();
+		Controle teste = new Controle();
+		 
 		teste.controleEstoque("TV", 10, 900.00);
 		teste.printStock();
 		
