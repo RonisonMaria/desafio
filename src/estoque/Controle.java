@@ -2,9 +2,9 @@ package estoque;
 
 public class Controle {
 
-	String name;
-	double price;
-	int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 
 	public void controleEstoque(String name, int quantity, double price) {
 		setName(name);
@@ -32,7 +32,7 @@ public class Controle {
 		System.out.println("Nome Produto: " + getName());
 		System.out.println("Preço Unitário: " + getPrice());
 		System.out.println("Quantidade: " + getQuantity());
-		System.out.println("Valor total " + totalStock());
+		System.out.println("Valor total em estoque: " + totalStock());
 	}
 
 	public String getName() {
