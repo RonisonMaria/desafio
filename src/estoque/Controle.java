@@ -17,17 +17,17 @@ public class Controle {
 		aux += quantity;
 		setQuantity(aux);
 	}
-	
+
 	public void removeQuantity(int quantity) {
 		int aux = getQuantity();
 		aux -= quantity;
 		setQuantity(aux);
 	}
-	
+
 	public double totalStock() {
 		return getQuantity() * getPrice();
 	}
-	
+
 	public void printStock() {
 		System.out.println("Nome Produto: " + getName());
 		System.out.println("Preço Unitário: " + getPrice());
